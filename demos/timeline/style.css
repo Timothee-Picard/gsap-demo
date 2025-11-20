@@ -1,0 +1,13 @@
+.timeline-boxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tl-box {
+    transition: background 0.2s ease;
+}
+
+.tl-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}

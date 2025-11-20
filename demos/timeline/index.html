@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>GSAP – Timeline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+<header class="app-header">
+    <h1>Timeline GSAP</h1>
+    <p><a href="/">← Retour au menu</a></p>
+</header>
+
+<main class="app-shell">
+    <section class="panel">
+        <h2>Documentation</h2>
+        <p>
+            Lien officiel GSAP :<br />
+            <a href="https://gsap.com/docs/v3/GSAP/Timeline/" target="_blank">
+                https://gsap.com/docs/v3/GSAP/Timeline/
+            </a>
+        </p>
+
+
+        <h2>Principe</h2>
+        <p>
+            Une <code>timeline</code> permet d’enchaîner plusieurs animations de manière fluide
+            et contrôlée. Toutes les étapes se jouent l’une après l’autre.
+        </p>
+
+        <div class="panel-content panel-content--column">
+            <button id="btn-timeline" class="btn-primary">Lancer Timeline</button>
+
+            <div class="timeline-boxes">
+                <div class="box tl-box" id="tl-box-1">1</div>
+                <div class="box tl-box" id="tl-box-2">2</div>
+                <div class="box tl-box" id="tl-box-3">3</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script type="module" src="/demos/timeline/main.js"></script>
+</body>
+</html>

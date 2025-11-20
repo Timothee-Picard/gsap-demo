@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>GSAP – SVG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/demos/svg/style.css" />
+</head>
+<body>
+<header class="app-header">
+    <h1>Animation SVG</h1>
+    <p><a href="/">← Retour au menu</a></p>
+</header>
+
+<main class="app-shell">
+    <section class="panel">
+
+        <h2>Documentation</h2>
+        <p>
+            Ressources officielles GSAP autour de SVG :<br />
+            <a href="https://gsap.com/resources/svg/" target="_blank">
+                https://gsap.com/resources/svg/
+            </a>
+        </p>
+
+        <h2>Principe</h2>
+        <p>
+            On anime un <code>&lt;path&gt;</code> SVG en jouant sur
+            <code>strokeDashoffset</code> pour donner l&apos;impression que le trait se dessine.
+        </p>
+
+        <div class="panel-content panel-content--column svg-demo">
+            <button id="btn-svg" class="btn-primary">Dessiner le trait</button>
+
+            <svg
+                    id="svg-demo"
+                    viewBox="0 0 200 80"
+                    xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                        id="svg-path"
+                        d="M10 60 C 40 10, 80 10, 110 60 S 180 110, 190 40"
+                        fill="none"
+                        stroke="#4fb06d"
+                        stroke-width="4"
+                        stroke-linecap="round"
+                />
+            </svg>
+        </div>
+    </section>
+</main>
+
+<script type="module" src="/demos/svg/main.js"></script>
+</body>
+</html>

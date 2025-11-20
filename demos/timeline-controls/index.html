@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>GSAP – Timeline contrôlée</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/demos/timeline-controls/style.css" />
+</head>
+<body>
+<header class="app-header">
+    <h1>Timeline contrôlée</h1>
+    <p><a href="/">← Retour au menu</a></p>
+</header>
+
+<main class="app-shell">
+    <section class="panel">
+
+        <h2>Documentation</h2>
+        <p>
+            Lien officiel GSAP :<br />
+            <a href="https://gsap.com/docs/v3/GSAP/Timeline/" target="_blank">
+                https://gsap.com/docs/v3/GSAP/Timeline/
+            </a>
+        </p>
+
+        <h2>Principe</h2>
+        <p>
+            Une <code>timeline</code> peut être contrôlée comme un lecteur vidéo :
+            <strong>play</strong>, <strong>pause</strong>, <strong>reverse</strong>,
+            <strong>restart</strong>.
+        </p>
+
+        <div class="panel-content panel-content--column">
+            <div class="controls">
+                <button class="btn-primary" id="tl-play">Play</button>
+                <button class="btn-primary" id="tl-pause">Pause</button>
+                <button class="btn-primary" id="tl-reverse">Reverse</button>
+                <button class="btn-primary" id="tl-restart">Restart</button>
+            </div>
+
+            <div id="box-tl-controls" class="box">TL</div>
+        </div>
+    </section>
+</main>
+
+<script type="module" src="/demos/timeline-controls/main.js"></script>
+</body>
+</html>

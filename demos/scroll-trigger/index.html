@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>GSAP – ScrollTrigger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/demos/scroll-trigger/style.css" />
+</head>
+<body>
+<header class="app-header">
+    <h1>ScrollTrigger (basique)</h1>
+    <p><a href="/">← Retour au menu</a></p>
+</header>
+
+<main class="app-shell">
+    <section class="panel">
+
+        <h2>Documentation</h2>
+        <p>
+            Lien officiel GSAP (ScrollTrigger) :<br />
+            <a href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/" target="_blank">
+                https://gsap.com/docs/v3/Plugins/ScrollTrigger/
+            </a>
+        </p>
+
+        <h2>Principe</h2>
+        <p>
+            L&apos;élément ci-dessous s&apos;anime lorsque son <strong>centre</strong> arrive
+            à <code>center - 100px</code> du viewport, puis se termine à
+            <code>center + 100px</code>.
+        </p>
+
+        <!-- gros espace avant -->
+        <div class="scroll-spacer"></div>
+
+        <!-- élément animé -->
+        <div id="box-scroll" class="box large">SCROLL</div>
+
+        <!-- gros espace après -->
+        <div class="scroll-spacer"></div>
+    </section>
+</main>
+
+<script type="module" src="/demos/scroll-trigger/main.js"></script>
+</body>
+</html>

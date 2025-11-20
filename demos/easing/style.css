@@ -1,0 +1,16 @@
+.easing-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.easing-buttons button {
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+.panel a {
+    color: #0074ea;
+    text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>GSAP – Multi-propriétés</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/demos/multi/style.css" />
+</head>
+<body>
+<header class="app-header">
+    <h1>Multi-propriétés</h1>
+    <p><a href="/">← Retour au menu</a></p>
+</header>
+
+<main class="app-shell">
+    <section class="panel">
+
+        <h2>Documentation</h2>
+        <p>
+            Lien officiel GSAP :<br />
+            <a href="https://gsap.com/docs/v3/GSAP/gsap.to()/" target="_blank">
+                https://gsap.com/docs/v3/GSAP/gsap.to()/
+            </a>
+        </p>
+
+
+        <h2>Principe</h2>
+        <p>
+            GSAP peut animer <strong>plusieurs propriétés en même temps</strong> :
+            rotation, scale, couleur, opacité, etc.
+        </p>
+
+        <div class="panel-content panel-content--column">
+            <button id="btn-multi" class="btn-primary">Lancer l'animation</button>
+
+            <div id="box-multi" class="box large">MULTI</div>
+        </div>
+
+    </section>
+</main>
+
+<script type="module" src="/demos/multi/main.js"></script>
+</body>
+</html>
